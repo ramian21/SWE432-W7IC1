@@ -4,7 +4,7 @@ import javax.servlet.*; // servlet library
 import javax.servlet.http.*; // servlet library
 import java.io.*;
 
-public class Hello extends HttpServlet // Inheriting from HttpServlet makes this a servlet
+public class HelloServlet extends HttpServlet // Inheriting from HttpServlet makes this a servlet
 {
 public void doGet (HttpServletRequest request, HttpServletResponse response)
                    throws ServletException, IOException
